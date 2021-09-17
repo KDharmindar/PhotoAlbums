@@ -4,6 +4,7 @@
         <title>Sign In</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="stylesheet.css" rel="stylesheet">
+        <script src='signin.js'></script>
     </head>
     <body>
         <div class="container">
@@ -14,15 +15,15 @@
                         <table>
                             <tr>
                                 <td class="cellAlignRight">Username</td>
-                                <td><input type="text"></td>
+                                <td><input id="txtUserName" type="text"></td>
                             </tr>
                             <tr>
                                 <td class="cellAlignRight">Password</td>
-                                <td><input type="password"></td>
+                                <td><input id="txtPassword" type="password"></td>
                             </tr>
                             <tr>
                                 <td><a href="forgetpassword.html">Forgot password!</a></td>
-                                <td><button>Sign In</button></td>
+                                <td><button onclick="Signin()">Sign In</button></td>
                             </tr>
                         </table>
                          
